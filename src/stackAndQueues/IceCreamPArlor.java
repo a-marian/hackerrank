@@ -1,4 +1,4 @@
-package miscellaneous.stackAndQueues;
+package stackAndQueues;
 
 import java.util.ArrayList;
 import java.util.Arrays;

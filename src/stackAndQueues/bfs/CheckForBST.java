@@ -1,4 +1,4 @@
-package miscellaneous.stackAndQueues.bfs;
+package stackAndQueues.bfs;
 /**
  * Given the root of tree. Check whether it is a BST or not.
  * Note: We are considering that BSTs can not contain duplicated Nodes.

@@ -1,4 +1,4 @@
-package miscellaneous.stackAndQueues.bfs;
+package stackAndQueues.bfs;
 
 import java.util.LinkedList;
 import java.util.Queue;
