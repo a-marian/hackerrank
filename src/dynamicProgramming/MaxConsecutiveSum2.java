@@ -15,6 +15,18 @@ package dynamicProgramming;
 
 public class MaxConsecutiveSum2 {
 
+    public int maxSubArray1(int[] nums) {
+        if(nums.length <= 1) return nums[0];
+
+        int maxSum = nums[0];
+        int currentSum = maxSum;
+        for(int i = 1 ; i < nums.length; i++){
+            currentSum = Math.max(nums[i] + currentSum, nums[i]);
+            maxSum = Math.max(currentSum, maxSum);
+        }
+        return maxSum;
+    }
+
     static int arrayMaxConsecutiveSum2(int[] inputArray){
         int maxSum = inputArray[0];
         int currentSum = maxSum;
